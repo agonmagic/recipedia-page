@@ -2,12 +2,13 @@ import { useState } from "react";
 
 import userImg from "../assets/user.png";
 import logoImg from "../assets/Recipedia Logo.svg";
-import searchImg from "../assets/search.png"
+import searchImg from "../assets/search.png";
 
 import "./Header.css";
 
 export default function Header() {
   const [showSearch, setShowSearch] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <header>
@@ -18,7 +19,11 @@ export default function Header() {
         </a>
       </div>
 
-      <ul className="navbar">
+      <div className="hamburger" onClick={() => setShowMenu(!showMenu)}>
+        ☰
+      </div>
+
+      <ul className={`navbar ${showMenu ? "active" : ""}`}>
         <li>
           <a href="#home">Home</a>
         </li>
@@ -34,7 +39,9 @@ export default function Header() {
       </ul>
 
       <div className="searchAcc">
-        <div className="search-container">
+        <div
+          className={`search-container ${showSearch ? "show" : ""}`}
+        >
           <img
             src={searchImg}
             alt="Search Icon"
