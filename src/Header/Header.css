@@ -1,3 +1,8 @@
+.navbar li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .searchAcc {
     display: flex;
     gap: 30px;
