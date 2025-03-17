@@ -8,7 +8,7 @@ export default function Cta() {
     return(
         <div id="cta">
             <h1>
-                Embrace the joy of cooking with get it on your iPhone or Android <br />
+                Embrace the joy of cooking with us <br /> Get it on your iPhone or Android <br />
                 Your kitchen adventure begins now!
             </h1>
             <div className="app-buttons">

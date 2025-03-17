@@ -157,6 +157,7 @@
         display: flex;
         align-items: center;
         gap: 4px;
+        z-index: -12;
     }
 
     .logo img {
@@ -206,6 +207,7 @@
     .navbar li {
         display: block;
         text-align: center;
+        justify-content: center;
         padding: 15px;
         width: 100%;
     }
