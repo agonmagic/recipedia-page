@@ -110,4 +110,8 @@ form button:hover{
     .list{
         margin-right: 0;
     }
+
+    .list h2{
+        margin: 10px 0 30px 0;
+    }
 }
