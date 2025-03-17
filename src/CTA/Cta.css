@@ -1,0 +1,78 @@
+#cta{
+    width: 1240px;
+    margin: 100px auto 0 auto;
+    border-radius: 20px;
+    padding: 50px 100px;
+    background-color: #046E1B;
+    position: relative;
+}
+
+#cta h1{
+    font-size: 46px;
+    letter-spacing: -1.7%;
+    font-weight: 600;
+    color: white;
+    width: 787px;
+    margin-bottom: 60px;
+    z-index: 100;
+}
+
+.iph{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.app-buttons img{
+    margin-right: 39px;
+    z-index: 100;
+}
+
+.app-buttons img:hover{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1439px) {
+    #cta{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #cta h1{
+        text-align: center;
+        padding: 0 20px;
+        width: 90%;
+    }
+
+    .iph{
+        position: static;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #cta h1{
+        font-size: 30px;
+    }
+
+    .iph{
+        width: 330px;
+    }
+
+    .app-buttons{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app-buttons img{
+        width: 200px;
+        margin: 0 0 15px 0;
+    }
+}

@@ -1,8 +1,9 @@
 import { useState } from "react";
 
 import userImg from "../assets/user.png";
-import logoImg from "../assets/Recipedia Logo.svg";
 import searchImg from "../assets/search.png";
+
+import Logo from "./Logo";
 
 import "./Header.css";
 
@@ -12,12 +13,7 @@ export default function Header() {
 
   return (
     <header>
-      <div className="logo">
-        <img src={logoImg} alt="Logo" />
-        <a href="#home">
-          <h1>Recipedia</h1>
-        </a>
-      </div>
+      <Logo />
 
       <div className="hamburger" onClick={() => setShowMenu(!showMenu)}>
         ☰

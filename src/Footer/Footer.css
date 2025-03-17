@@ -1,0 +1,102 @@
+#footer{
+    width: 1240px;
+    margin: -50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lists{
+    display: flex;
+}
+
+.list{
+    margin-right: 100px;
+}
+
+.list h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 50px 0 30px 0;
+}
+
+.list ul{
+    list-style: none;
+}
+
+.list ul li{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.list ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.list ul li a:hover{
+    color: #046E1B;
+}
+
+.newsletter h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+form input{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 5px;
+}
+
+form button{
+    background-color: #F79F1A;
+    padding: 20px 40px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+
+form button:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1439px) {
+    #footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lists{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .newsletter{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list{
+        margin-right: 0;
+    }
+}

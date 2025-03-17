@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (max-width: 1339px) {
+@media screen and (max-width: 1439px) {
     #home {
         flex-direction: column;
         align-items: center;
@@ -89,14 +89,15 @@
     }
 
     .title {
-        font-size: 40px;
+        font-size: 60px;
         line-height: 50px;
         margin-bottom: 20px;
+        padding: 0 20px;
     }
 
     .subtitle {
         width: 100%;
-        font-size: 14px;
+        font-size: 20px;
         line-height: 20px;
         color: #7F7D7D;
     }

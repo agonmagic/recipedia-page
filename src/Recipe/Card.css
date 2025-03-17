@@ -54,7 +54,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-left: 30px;
+    padding: 10px 0 10px 30px;
 }
 
 .recipe-down h3{
@@ -65,4 +65,10 @@
 .recipe-down a{
     text-decoration: underline;
     color: #F79F1A;
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        width: 80%;
+    }
 }

@@ -1,0 +1,103 @@
+.commcard{
+    width: 575px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
+    padding: 50px 30px 10px 30px;
+}
+
+.topinfo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 52px;
+}
+
+.topinfo img{
+    width: 52px;
+    border-radius: 50%;
+    margin-right: 35px;
+}
+
+.titlename{
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titlename h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.titlename p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #7F7D7D;
+}
+
+.stars-desc{
+    gap: 15px;
+    margin: 30px 0 10px 0;
+}
+
+.stars-desc{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.food{
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+}
+
+.bottom-buttons{
+    display: flex;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.bottom-buttons span{
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-buttons img{
+    width: 20px;
+}
+
+.bottom-buttons img:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 648px) {
+    .commcard{
+        width: 400px;
+    }
+
+    .topinfo img{
+        margin-right: 20px
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .commcard {
+        width: 320px;
+    }    
+
+    .topinfo img{
+        margin-right: 20px
+    }
+
+    .titlename h1{
+        font-size: 16px;
+    }
+
+    .titlename p{
+        font-size: 12px;
+    }
+}
