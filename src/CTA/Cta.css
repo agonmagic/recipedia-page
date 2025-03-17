@@ -83,12 +83,20 @@
 }
 
 @media screen and (max-width: 600px) {
+    #cta{
+        position: inherit;
+    }
     #cta h1{
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .iph{
         position: static;
         margin: 20px auto;
+    }
+
+    .app-buttons img{
+        width: 200px;
+        margin: 0 0 15px 0;
     }
 }
